@@ -26,10 +26,10 @@ public class target2 {
 
     public static int returnMaxHit(int T, int C, int[] poss, int pos, String cmd) {
         Set<Integer> targetHitted = new HashSet<>();
-        int posBase;
+        //int posBase;
 
         // Initial calculation
-        posBase = calculateTargetHitted(targetHitted, C, cmd, pos, poss);
+        //posBase = calculateTargetHitted(targetHitted, C, cmd, pos, poss);
 
         char[] cmdSet = {'L', 'R', 'F'};
         int maxHit = targetHitted.size();

@@ -36,6 +36,7 @@ public class closing {
 			}
 			closed[order[i]] = true;
 		}
+		sc.close();
 		out.close();
 	}
 	static void dfs(int node) {
